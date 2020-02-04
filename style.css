@@ -1,7 +1,39 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: lightgray;
     margin: 0;
     padding: 0;
 }
 
+.header {
+    height: 30px;
+    background-color: grey;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15px;
+    grid-gap: 3px
+}
+
+.choice{
+    background-color:lightslategrey;
+    width:5vw;
+    margin:auto;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.profile{
+    margin: 40px 200px 40px 200px;
+    height: 200px;
+    background-color: rgb(125, 170, 199);
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10px;
+    grid-gap: 3px
+}
+
+.profile_picture{
+    background-color:blue;
+}
