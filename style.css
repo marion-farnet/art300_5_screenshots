@@ -6,34 +6,141 @@ body {
 }
 
 .header {
-    height: 30px;
+    height: 40px;
+    width: 100vw;
     background-color: grey;
-
+    position:fixed;
     display:grid;
+    
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15px;
-    grid-gap: 3px
+    grid-template-rows: 30px;
+    grid-gap: 15px
 }
 
 .choice{
-    background-color:lightslategrey;
+    background-color: rgb(125, 170, 199);
     width:5vw;
     margin:auto;
     padding: 10px;
     margin-top: 4px;
 }
 
-.profile{
-    margin: 40px 200px 40px 200px;
-    height: 200px;
-    background-color: rgb(125, 170, 199);
+.spacer{
+    background-color: lightgray;
+    height: 100px
+}
 
+.profile{
+    margin-left:25vw;
+    height: 25vw;
+    width: 50vw;
+    background-color: rgb(125, 170, 199);
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10px;
-    grid-gap: 3px
 }
 
 .profile_picture{
-    background-color:blue;
+    background-color:grey;
+    width: 5vw;
+    height: 5vw;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bio{
+    background-color:grey;
+    width: 40vw;
+    height: 20vw;
+    margin-left: 2vw;
+    margin-top:3vw;
+    margin-right: 2vw;
+}
+
+.highlights{
+    margin-left: 25vw;
+    margin-top: 2vw;
+    height: 10vw;
+    width: 50vw;
+    background-color: lightsteelblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.highlight_icon{
+    background-color: rgb(125, 170, 199);
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.titles{
+    margin-left: 25vw;
+    margin-top: 2vw;
+    height: 5vw;
+    width: 50vw;
+    background-color: lightsteelblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.title{
+    background-color: rgb(125, 170, 199);
+    width: 40px;
+    height: 15px;
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+.images{
+    margin-left: 25vw;
+    margin-top: 2vw;
+    height: 150vw;
+    width: 50vw;
+    background-color: lightsteelblue;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.post{
+    background-color: rgb(125, 170, 199);
+    width: 14vw;
+    height: 14vw;
+    margin:15px;
+    grid-gap:3px;
+}
+
+.bottom{
+    height: 40px;
+    width: 100vw;
+    background-color: grey;
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.bottom_box{
+    background-color: rgb(125, 170, 199);
+    width: 50vw;
+    height: 20px;
+    margin:5px;
+}
+
+.copyright{
+    background-color: rgb(125, 170, 199);
+    width: 30vw;
+    height: 20px;
+    margin-left:40px;
+    margin-top: 5px;
+}
+
+.bottom_spacer{
+    background-color: lightgray;
+    height: 75px
 }
