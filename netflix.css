@@ -1,0 +1,307 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 65px;
+    width: 100vw;
+    background-color: rgb(125, 170, 199);
+    position:fixed;
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px;
+    z-index: 1;
+}
+
+.netflix{
+    height: 30px;
+    width: 200px;
+    background-color:slategray;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.home{
+    height: 20px;
+    width: 100px;
+    background-color:slategray;
+    margin-top:25px;
+    margin-left:10px;
+}
+
+.search{
+    height: 30px;
+    width: 250px;
+    background-color:slategray;
+    margin-top:20px;
+    margin-right:10px;
+    margin-left: 90px;
+}
+
+.banner{
+    margin-top: 65px;
+    height: 400px;
+    width: 100vw;
+    background-color:grey;
+    position: absolute;;
+}
+
+.movie{
+    background-color:lightblue;
+    margin-top:60px;  
+    margin-left: 40px; 
+    height: 200px;
+    width: 400px;
+}
+
+.playing{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.play{
+    background-color:lightblue;
+    margin-top:30px;  
+    margin-left: 40px; 
+    height: 30px;
+    width: 175px;
+}
+
+.rating{
+    background-color:lightblue;  
+    margin-left: 1500px; 
+    height: 30px;
+    width: 190px;
+}
+
+.my_list{
+    margin-top:500px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movies{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.my_list_a{
+    margin-top:800px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movies_a{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.my_list_b{
+    margin-top:1100px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movies_b{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.my_list_c{
+    margin-top:1400px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movies_c{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.my_list_d{
+    margin-top:1700px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movies_d{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.big_movie_box{
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px;
+}
+
+.big_movie{
+    margin-top:2000px;
+    margin-left: 40px;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(125, 170, 199);
+}
+
+.big_movie_one{
+    margin-top:2000px;
+    height: 400px;
+    width: 760px;
+    background-color:grey;
+}
+
+.category{
+    margin-top:2450px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movie_e{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.category_f{
+    margin-top:2750px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.my_movie_f{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+.netflix_original_label{
+    margin-top:3050px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(125, 170, 199);
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.netflix_original_banner{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 500px;
+    width: 300px;
+}
+
+.gray_load{
+    margin-top:3650px;
+    margin-left: 40px;
+    height: 30px;
+    width: 150px;
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-gap: 15px
+}
+
+.gray{
+    background-color:rgb(125, 170, 199);  
+    margin-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+
+.bottom_banner{
+    background-color: slategray;
+    margin-top:4000px;
+    height: 400px;
+    width: 100vw;
+    position:absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.legalities{
+    background-color:rgb(125, 170, 199);  
+    margin-left:50px;
+    margin-top: 20px;
+    height: 20px;
+    width: 10vw;
+}
+
+.copyright{
+    background-color:rgb(125, 170, 199);  
+    margin-left:20vw;
+    margin-top: 4300px;
+    height: 50px;
+    width: 50vw;
+    position: absolute;
+}
