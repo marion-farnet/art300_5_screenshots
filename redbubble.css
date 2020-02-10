@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 55px;
+    width: 100vw;
+    background-color: rgb(125, 170, 199);
+    position:fixed;
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+}
+
+.blank{
+    height: 20px;
+    width: 1200px;
+    margin-top:25px;
+}
+
+.followers{
+    height: 20px;
+    width: 40px;
+    background-color:slategray;
+    margin-top:25px;
+    margin-left: 30px;
+}
+
+.subheader{
+    margin-top: 70px;
+    height: 55px;
+    width: 100vw;
+    position: absolute;
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 20px;
+}
+
+.redbubble_logo{
+    height: 55px;
+    width: 400px;
+    margin-left: 200px;
+    background-color: rgb(125, 170, 199);
+}
+
+.searchbar{
+    height: 55px;
+    width: 900px;
+    background-color: rgb(125, 170, 199);
+    margin-right: 400px;
+}
+
+.options{
+    margin-top: 140px;
+    margin-left: 240px;
+    height: 55px;
+    width: 80vw;
+    position: absolute;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.option{
+    background-color: rgb(125, 170, 199);
+    height: 20px;
+    width: 70px;
+}
+
+.banner{
+    margin-top:200px;
+    position:absolute;
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(125, 170, 199);
+}
+
+.profile{
+    margin-left: 300px;
+    margin-top: 525px;
+    height: 300px;
+    width: 900px;
+    background-color: rgb(125, 170, 199);
+    position: absolute;
+}
+.profile_picture{
+    margin-top:20px;
+    margin-left: 20px;
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+}
+
+.name{
+    margin-top:20px;
+    margin-left: 110px;
+    position:absolute;
+    height: 30px;
+    width: 125px;
+    background-color: gray;
+}
+
+.member{
+    margin-top:60px;
+    margin-left: 110px;
+    position:absolute;
+    height: 20px;
+    width: 125px;
+    background-color: gray;
+}
+
+.bio{
+    margin-top:90px;
+    margin-left: 110px;
+    position:absolute;
+    height: 120px;
+    width: 750px;
+    background-color: gray;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+.shops{
+    margin-top:500px;
+    margin-left: 10px;
+    height: 20px;
+    width: 125px;
+    background-color: gray;
+    position:absolute;
+}
