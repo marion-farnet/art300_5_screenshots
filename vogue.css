@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 45px;
+    width: 100vw;
+    background-color: darkgray;
+    position:fixed;
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    z-index: 1;
+}
+
+.page{
+    height: 45px;
+    width: 25vw;
+    background-color:slategray;
+    margin-right: 50vw;
+}
+
+.search{
+    height: 45px;
+    width: 25vw;
+    background-color:slategray;
+}
+
+.sales{
+    margin-top:45px;
+    position:absolute;
+    height: 300px;
+    width: 100vw;
+    background-color:rgb(125, 170, 199);
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.step_one{
+    margin-left: 35vw;
+    margin-top: 60px;
+    height: 45px;
+    width: 30vw;
+    background-color:slategray;
+}
+
+.offer{
+    margin-left: 20vw;
+    height: 45px;
+    width: 60vw;
+    background-color:slategray;
+}
+
+.image_block{
+    margin-top:400px;
+    position:absolute;
+    height: 500px;
+    width: 30vw;
+    margin-left: 35vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.image{
+    margin-left: 2.5vw;
+    height: 200px;
+    width: 10vw;
+    background-color:slategray;
+}
+
+.caption{
+    margin-left: 4.5vw;
+    height: 30px;
+    width: 5.5vw;
+    background-color:slategray;
+}
+
+.bottom_sales{
+    margin-top:750px;
+    position:absolute;
+    height: 200px;
+    width: 30vw;
+    margin-left: 35vw;
+    display:grid;
+    grid-template-rows: 2fr 2fr;
+}
+
+.step_two{
+    height: 30px;
+    width: 10vw;
+    margin-left: 10vw;
+    background-color:slategray;
+}
+
+.question{
+    height: 30px;
+    width: 20vw;
+    margin-left: 5vw;
+    background-color:slategray;
+}
+
+.questions{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+.option{
+    margin-left:2.5vw;
+    height: 30px;
+    width: 10vw;
+    background-color:slategray;
+}
+
+.footer{
+    margin-top: 900px;
+    height: 300px;
+    width: 100vw;
+    background-color: darkgray;
+    position:absolute;
+}
+
+.footers{
+    margin-top: 950px;
+    margin-left: 30vw;
+    position: absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5vw;
+}
+.faq{
+    height: 20px;
+    width: 50px;
+    background-color:slategray;
+}
+
+.user{
+    height: 20px;
+    width: 70px;
+    background-color:slategray;
+}
+
+.customer{
+    height: 20px;
+    width: 80px;
+    background-color:slategray;
+}
+
+.policy{
+    height: 20px;
+    width: 100px;
+    background-color:slategray;
+}
+
+.underpolicy{
+    margin-top: 900px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    position:absolute;
+    margin-left:20vw;
+}
+
+.copyright{
+    margin-top: 90px;
+    margin-left: 20vw;
+    height: 20px;
+    width: 20vw;
+    background-color:slategray;
+}
+
+.info{
+    margin-top: 10px;
+    margin-left: 15vw;
+    height: 100px;
+    width: 30vw;
+    background-color:slategray;
+}
